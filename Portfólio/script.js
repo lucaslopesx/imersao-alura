@@ -76,3 +76,7 @@ function jogar() {
         elementoResultado.innerHTML = valorCartaJogador;
     }
 }
+
+function changeTheme() {
+    document.body.classList.toggle("dark");
+}

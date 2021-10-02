@@ -9,28 +9,54 @@
     </head>
     <body>
         <div class="container">
-            <header class="perfil">
-                <img
-                    class="perfil-foto"
-                    src="https://github.com/lucaslopesx.png"
-                    alt=""
-                />
-                <div class="titulo">
-                    <h1>Lucas Lopes</h1>
-                    <h3>Estudante de Ciência da Computação</h3>
+            <header class="cabecalho">
+                <div class="perfil">
+                    <img
+                        class="perfil-foto"
+                        src="https://github.com/lucaslopesx.png"
+                        alt=""
+                    />
+                    <div class="titulo">
+                        <h1>Lucas Lopes</h1>
+                        <h3>Estudante de Ciência da Computação</h3>
+                    </div>
+                </div>
+                <div class="tema">
+                    <button onclick="changeTheme()">Alterar Tema</button>
                 </div>
             </header>
             <main class="projetos">
                 <ul>
-                    Projetos
-                    <li><a href="../AluraFlix/index.html">🍿AluraFlix</a></li>
-                    <li>
-                        <a href="../Aula06/index.html"
-                            >🏆Tabela de Classificação</a
-                        >
+                    <li class="projetos-titulo">Projetos</li>
+                    <li class="projetos-item">
+                        <a href="../AluraFlix/index.html">
+                            <p>🍿AluraFlix</p>
+                            <img
+                                class="preview"
+                                src="images/aluraflix.png"
+                                alt=""
+                            />
+                        </a>
                     </li>
-                    <li>
-                        <a href="../SuperTrunfo/index.html">🃏SuperTrunfo</a>
+                    <li class="projetos-item">
+                        <a href="../SuperTrunfo/index.html">
+                            <p>🃏SuperTrunfo</p>
+                            <img
+                                class="preview"
+                                src="images/supertrunfo.png"
+                                alt=""
+                            />
+                        </a>
+                    </li>
+                    <li class="projetos-item">
+                        <a href="../Aula06/index.html">
+                            <p>🏆Tabela de Classificação</p>
+                            <img
+                                class="preview"
+                                src="images/tabela.png"
+                                alt=""
+                            />
+                        </a>
                     </li>
                 </ul>
             </main>

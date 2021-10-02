@@ -2,11 +2,17 @@
 body {
   height: 100vh;
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(230.65deg, #42006e 27.49%, #450192 83.19%);
+  background: linear-gradient(230.65deg, #350058 27.49%, #43008f 83.19%);
 }
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
 .perfil{
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 .perfil-foto{
   border-radius: 460px;
@@ -35,7 +41,64 @@ body {
   font-size: 24px;
 }
 
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  border-radius: 100px;
+  border: 1px #000 solid;
+}
+
 .projetos {
   display: flex;
   flex-direction: column;
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgba(16, 16, 16, 0.42);
+  background: linear-gradient(230.65deg, #9e20f1 27.49%, #7727d3 83.19%)
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-left: 32px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.preview{
+  height: 50%;
+  width: 90%;
+}
+
+.dark {
+  background: linear-gradient(230.65deg, #1a002c 27.49%, #200044 83.19%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #fff;
+  border: 1px #f7f7f7 solid;
 }
